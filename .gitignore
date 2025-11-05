@@ -1,0 +1,20 @@
+# Pasta do VS Code (ignorar tudo menos configs importantes)
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Arquivos de build e saída
+output/
+build/
+dist/
+*.exe
+*.o
+*.obj
+*.out
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Sistema Windows
+Thumbs.db
